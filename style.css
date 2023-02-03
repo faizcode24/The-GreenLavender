@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400;1,500&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Quicksand:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/* utility class */
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+h4{
+    padding: 20px;
+    font-size: xx-large;
+
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    
+    line-height: 1.8rem;
+    
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.container{
+    
+    max-width: 1180px;
+    margin-inline: auto;
+    padding: 20px;
+    
+    
+}
+
+.hover-link {
+    color: greenyellow;
+    transition: 0.2 ease-out;
+}
+
+.hover-link:hover {
+    color: darkolivegreen;
+}
+
+.primary {
+    background-color: #8BC34A;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-colour);
+    transition: 0.2s ease-out;
+}
+
+.primary:hover {
+    background-color: #80DEEA;
+}
+
+.secondary {
+    background-color: #EF5350;
+    border: 0.5px solid #EF5350;
+    border-radius: 8px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondary:hover {
+    border-color: green;
+    color: black !important;
+
+}
+
+
+/*top banner */
+
+.top-banner{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: serif;
+    letter-spacing: normal;
+    background-color: green;
+    
+    margin: 0 10px ;
+    padding: 20px;
+    background-image: url(1423.jpg);
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-banner{
+    color: #000 ;
+    font-size: xxx-large;
+    font-weight: 500;
+    font-family: 'Italianno', cursive;
+    
+
+}
+
+.p-banner:hover {
+    transition: 0.5s ease-out;
+    color: #F1C40F ;
+    
+    
+}
+
+/* nav bar */
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+/* .comapany-logo img {
+
+    width: 340px;
+} */
+
+.nav-links  {
+    flex-basis: 830px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+header{
+    padding: 50px;
+    
+}
+.main-header{
+    justify-content: center;
+    gap: 50px;
+}
+
+.left{
+    max-width: 40wh;
+}
+
+.left h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn{
+    margin-top: 30px;
+}
+
+.right img{
+    width: 600px;
+}
+
+
+.food-header{
+    text-align: center;
+    margin-block: 30px;
+    color: yellowgreen;
+}
+
+.items{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 46px;
+}
+
+.items img{
+    width: 146px;
+}
+
+
+
+.p1 p{
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+
+
+                /* .features-section{
+                    padding: 80px  0;
+                    background-image: url("8.jpg");
+                    background: no-repeat;
+                    background-position: center;
+                }
+                
+                .features-header{
+                    text-align: center;
+                
+                }
+                
+                .features-heading-text{
+                margin-bottom: 20px;
+                }
+                
+                .features-area  {
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    gap: 40px;
+                    margin-top: 20px;
+                    
+                }
+                
+                .features-card {
+                    flex-direction: column;
+                    gap: 20px;
+                    max-width: 30%;
+                    text-align: center;
+                    
+                }
+
+                .img6{
+                    width: 100px;
+                } */
+
+
+   /* food items section */
+   
+   .chef-section-1{
+    padding: 30px;
+   }
+
+   .food-container{
+        gap: 30px;
+   }
+
+  
+
+   .food-image img{
+    width: 100%;
+    
+    
+   }
+
+   .food-description{
+    flex-direction: column;
+    align-items: flex-start;
+   }
+
+
+   .chef-section-2 {
+    margin-top: 30px;
+    padding: 14px;
+    text-align: center;
+   }
+
+   .chef-section-2 h2{
+    margin: 20px;
+    letter-spacing: 0.5rem;
+    
+   }
+
+   .chef-section-2 p{
+    margin: 20px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+   }
+
+   .chef-section-2 img{
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    
+   }
+
+   /*  */
+
+   .food-section{
+    flex-direction: column;
+    gap: 20px;
+
+   }
+
+   .food-example{
+    justify-content: space-between;
+    margin-block: 30px;
+   }
+
+   .example{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    
+    background: lightgreen;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(palm.jfif);
+    background-size: cover;
+    transition: 0.4s ease-in-out;
+   }
+
+   .example:hover{
+    box-shadow: 0 0 10px rgb(71, 6, 6);
+   }
+
+
+   .example:nth-child(2){
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(san\ francisco.jfif);
+    background-size: cover;
+   }
+
+
+   .example:nth-child(3){
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(taj.jpg);
+    background-size: cover;
+   }
+
+   .example:nth-child(4){
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(paris.jfif);
+    background-size: cover;
+   }
+
+   .item-info{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+   }
+
+
+   /* resturant section */
+   .resturant{
+    flex-direction: column;
+    gap: 30px;
+    color: rgb(135, 18, 18);
+   }
+
+   .food-display{
+    padding: 120px;
+    /* background-color: greenyellow; */
+    background-image: url(taj.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   }
+
+   .resturant p{
+    color: rgba(25, 167, 167, 0.792);
+    margin-top: 20px;
+   }
+
+   footer{
+    
+    padding-block: 90px;
+    background-color:black;
+
+
+}
+
+.h4class{
+    color: white;
+    
+    padding-right: 20px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    transition: 0.4s ease-in-out;
+}
+
+.h4class:hover{
+    color: #EF5350;
+    
+
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start ;
+    gap: 20px;
+}
+.li{
+    align-items:  center;
+    justify-content: space-evenly;
+    transition: 0.4s ease-in-out;
+    font-size: larger;
+}
+
+.li:hover{
+    color: #F1C40F;
+}
+
+.footer-container{
+align-items: flex-start;
+justify-content: space-evenly;
+}
+
+
+.a2{
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* sub-footer */
+.subfooter{
+    background-color: #8BC34A;
+    
+}
+
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.a1{
+    color: #EF5350;
+    transition: 0.5s ease-in-out;
+    font-weight: 700;
+}
+
+a1:hover{
+    color: #080808;
+}
+
+
+
+.w3-content{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 160px;
+    
+}
+
+.w3-content:hover{
+    box-shadow: 0 0 10px rgb(199, 37, 37);
+}
+
+.mySlides {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-self:  center;
+}
+
+
+.logo-img{
+    width: 220px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
